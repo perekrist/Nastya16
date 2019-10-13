@@ -2,8 +2,11 @@
   "name": "nastya16",
   "version": "1.0.0",
   "description": "",
+  "homepage": "./",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "cross-env PORT=10888 react-scripts start",
     "build": "react-scripts build"
   },
@@ -22,8 +25,21 @@
     "babel-eslint": "^10.0.3",
     "chalk": "^2.4.2",
     "core-js": "^3.2.1",
+    "gh-pages": "^2.1.1",
     "prop-types": "^15.7.2",
     "react": "^16.10.2",
     "react-dom": "^16.10.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

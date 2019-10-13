@@ -5,7 +5,8 @@ import ScreenSpinner from '@vkontakte/vkui/dist/components/ScreenSpinner/ScreenS
 import '@vkontakte/vkui/dist/vkui.css';
 
 import Home from './panels/Home';
-import Persik from './panels/Persik';
+// import Persik from './panels/Persik';
+import Nastya from './panels/Nastya';
 
 const App = () => {
 	const [activePanel, setActivePanel] = useState('home');
@@ -35,10 +36,9 @@ const App = () => {
 	return (
 		<View activePanel={activePanel} popout={popout}>
 			<Home id='home' fetchedUser={fetchedUser} go={go} />
-			<Persik id='persik' go={go} />
+			<Nastya id='nastya' go={go} />
 		</View>
 	);
 }
 
 export default App;
-
