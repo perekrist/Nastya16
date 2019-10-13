@@ -1,1 +1,0 @@
-{"version":3,"sources":["Nastya.css"],"names":[],"mappings":"AAAA,QACE,aAAc,CACd,UAAW,CACX,eACF","file":"main.b5c96f7f.chunk.css","sourcesContent":[".Nastya {\n  display: block;\n  width: 100%;\n  max-width: 500px;\n}\n"]}
